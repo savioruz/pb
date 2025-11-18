@@ -7,7 +7,6 @@ RUN apk add --no-cache \
     unzip \
     openssh
 
-COPY ./pocketbase-custom /pb
 WORKDIR /pb
 
 RUN go mod download
