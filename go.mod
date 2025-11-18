@@ -1,6 +1,6 @@
 module pb
 
-go 1.25.2
+go 1.24.0
 
 require github.com/pocketbase/pocketbase v0.33.0
 
